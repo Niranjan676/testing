@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .my-list-item{
+        @apply bg-sky-400 w-32 h-10 text-white text-xl rounded-md flex items-center justify-center mb-4;
+    }
+
+    .title{
+        @apply bg-gray-100 min-h-screen px-3
+    }
+
+    .heading{
+        @apply text-3xl font-bold underline text-red-500
+    }
+
+    .btn{
+        @apply bg-slate-600 w-28 h-12 text-white text-lg my-3 rounded-lg p-3
+    }
+}
